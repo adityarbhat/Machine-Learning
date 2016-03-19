@@ -1,4 +1,4 @@
-sms_raw<-read.csv("/Users/adityabhat/Desktop/Machine Learning with R/chapter 4/sms_spam.csv",stringsAsFactors = FALSE)
+sms_raw<-read.csv("sms_spam.csv",stringsAsFactors = FALSE)
 sms_raw$type<-factor(sms_raw$type)
 sms_corpus<-VCorpus(VectorSource(sms_raw$text))
 print(sms_corpus)
