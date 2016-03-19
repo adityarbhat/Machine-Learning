@@ -1,4 +1,4 @@
-credit<-read.csv("/Users/adityabhat/Desktop/Machine Learning with R/chapter 5/credit.csv")
+credit<-read.csv("credit.csv")
 str(credit)
 #random sampling so that the training data cntains both large and small loan amts
 #as the loan amt is sorted in ascending order
